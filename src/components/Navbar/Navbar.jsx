@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+
 import "./Navbar.css";
 import { FaInstagram, FaTelegram } from "react-icons/fa";
-import { IoMdRocket } from "react-icons/io";
-import images from "../../constants/images";
 
 const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);

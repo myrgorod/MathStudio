@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Contact.css";
 import images from "../../constants/images";
 import { Formik } from "formik";
@@ -8,11 +8,11 @@ import Map from "./Map";
 import ContactInform from "./ContactInform";
 
 const Contact = () => {
-  const [formValues, setFormValues] = useState({
+  const formValues = {
     name: "",
     email: "",
     message: "",
-  });
+  };
   return (
     <section className="contact section-p-top bg-black" id="contact">
       <div className="container">
