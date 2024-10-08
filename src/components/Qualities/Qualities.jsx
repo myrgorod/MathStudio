@@ -10,7 +10,7 @@ const Qualities = () => {
         <div className="qualities-content grid">
           <div className="content-left">
             <div className="section-t">
-              <h3>Я - професіонал</h3>
+              <h3>Професіонал</h3>
               <p className="text">
                 Математика – це основа розвитку людської цивілізації. Від
                 найдавніших часів люди використовували числа для вимірювання,
@@ -43,7 +43,7 @@ const Qualities = () => {
             </div>
           </div>
           <div className="content-right">
-            <img src={images.portfolio_img_7} alt="" />
+            <img src={images.portfolio_img_7} alt="" title="репетитор з математики"/>
           </div>
         </div>
       </div>

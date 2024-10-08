@@ -3,9 +3,12 @@
   top: 0;
   left: 0;
   height: 78px;
-  background-color: transparent;
+  background-color: var(--clr-black);
   z-index: 999;
 }
+/* .container-top{
+	margin-top: 78px;
+} */
 .navbar-brand {
   color: var(--clr-white);
 }
@@ -83,6 +86,9 @@
 }
 
 @media screen and (min-width: 578px) {
+	.container-top{
+		margin-top: 78px;
+	}
   .navbar-collapse {
     width: 320px;
   }

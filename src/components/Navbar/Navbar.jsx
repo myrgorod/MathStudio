@@ -10,11 +10,11 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar w-100 flex">
-      <div className="container w-100">
+      <div className="container w-100 ">
         <div className="navbar-content flex fw-7">
           <div className="brand-and-toggler flex flex-between w-100">
             <a href="/" className="navbar-brand fs-26">
-              MathStudio
+              Math Studio
             </a>
             <div
               type="button"
@@ -36,16 +36,16 @@ const Navbar = () => {
             <div className="navbar-collapse-content">
               <ul className="navbar-nav">
                 <li className="text-white" onClick={navHandler}>
-                  <a href="#about">Про мене</a>
+                  <a href="#about">Профіль</a>
                 </li>
                 <li className="text-white" onClick={navHandler}>
-                  <a href="#services">Що ми вивчаємо</a>
+                  <a href="#services">Послуги</a>
                 </li>
                 <li className="text-white" onClick={navHandler}>
-                  <a href="#rooles">Як ми навчаємось</a>
+                  <a href="#rooles">Вартість</a>
                 </li>
                 <li className="text-white" onClick={navHandler}>
-                  <a href="#testimonials">Відгуки учнів</a>
+                  <a href="#testimonials">Відгуки</a>
                 </li>
                 <li className="text-white" onClick={navHandler}>
                   <a href="#contact">Контакти</a>

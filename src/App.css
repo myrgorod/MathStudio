@@ -135,7 +135,7 @@ select {
 .text {
   line-height: 1.55;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   color: var(--clr-gray);
 }
 .text-lead {
