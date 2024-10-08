@@ -72,11 +72,11 @@
   width: 100%;
 }
 .info .item-info-text {
-  font-size: 25px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 .info .item-icon {
-  font-size: 45px;
+  font-size: 30px;
 }
 .info .item-list {
   row-gap: 30px;
@@ -93,6 +93,14 @@
 @media screen and (min-width: 768px) {
   .info .item-list {
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+  }
+}
+
+@media screen and (min-width: 435px) {
+  .info .item-list {
+    grid-template-columns: repeat(2, 1fr);
+    /* display: block; */
     column-gap: 30px;
   }
 }

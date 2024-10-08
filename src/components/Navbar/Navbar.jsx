@@ -35,19 +35,19 @@ const Navbar = () => {
           >
             <div className="navbar-collapse-content">
               <ul className="navbar-nav">
-                <li className="text-white">
+                <li className="text-white" onClick={navHandler}>
                   <a href="#about">Про мене</a>
                 </li>
-                <li className="text-white">
+                <li className="text-white" onClick={navHandler}>
                   <a href="#services">Що ми вивчаємо</a>
                 </li>
-                <li className="text-white">
+                <li className="text-white" onClick={navHandler}>
                   <a href="#rooles">Як ми навчаємось</a>
                 </li>
-                <li className="text-white">
+                <li className="text-white" onClick={navHandler}>
                   <a href="#testimonials">Відгуки учнів</a>
                 </li>
-                <li className="text-white">
+                <li className="text-white" onClick={navHandler}>
                   <a href="#contact">Контакти</a>
                 </li>
               </ul>

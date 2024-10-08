@@ -13,7 +13,7 @@ const ContactInform = () => {
               return (
                 <div className="item bg-dark translate-effect" key={contact.id}>
                   <span className="item-icon">{contact.icon}</span>
-                  <div className="item-info-text fw-5 text-white">
+                  <div className="item-info-text fw-1 text-white">
                     {contact.info}
                   </div>
                   <p className="text">{contact.text}</p>
