@@ -10,7 +10,7 @@ const Qualities = () => {
         <div className="qualities-content grid">
           <div className="content-left">
             <div className="section-t">
-              <h4>Професіонал</h4>
+              <h4>Профі</h4>
               <p className="text">
                 Математика – це основа розвитку людської цивілізації. Від
                 найдавніших часів люди використовували числа для вимірювання,
