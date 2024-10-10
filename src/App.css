@@ -139,9 +139,9 @@ select {
   color: var(--clr-gray);
 }
 .text-lead {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--clr-whitesmoke);
 }
 

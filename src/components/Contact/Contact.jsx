@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="contact-content grid text-center">
           <div className="contact-left">
             <div className="section-t">
-              <h3>напиши мені</h3>
+              <h4>напиши мені</h4>
               <p className="text">
                 Запрошую всіх учнів на цікаве та продуктивне навчання! Якщо у
                 вас є питання або бажаєте приєднатися до занять, напишіть мені

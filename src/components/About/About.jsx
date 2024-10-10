@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div className="content-raght">
             <div className="section-t">
-              <h3>Про мене</h3>
+              <h4>Про мене</h4>
             </div>
             <p className="text">
               Привіт! Мене звати Катерина, я – репетитор з математики з понад

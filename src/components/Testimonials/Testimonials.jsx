@@ -20,7 +20,7 @@ const Testimonials = () => {
       <div className="container">
         <div className="testimonials-content">
           <div className="section-t text-center">
-            <h3>Відгуки учнів</h3>
+            <h4>Відгуки учнів</h4>
             <p className="text">
               Як вчитель, я завжди щиро радію успіхам своїх учнів і хочу
               поділитися відгуками про нашу спільну роботу. У процесі навчання
