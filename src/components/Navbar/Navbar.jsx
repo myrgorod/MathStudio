@@ -58,7 +58,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="text-white">
-                  <a href="/" className="flex flex-center">
+                  <a href="https://t.me/kate_ame" className="flex flex-center">
                     <FaTelegram />
                   </a>
                 </li>
