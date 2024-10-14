@@ -23,7 +23,7 @@ const SingleFeature = (feature) => {
         </button>
       </div>
       <div className={`item-body ${isActive ? "item-body-show" : ""}`}>
-        <p className="text">{feature.text}</p>
+        <div className="text">{feature.text}</div>
       </div>
     </div>
   );
