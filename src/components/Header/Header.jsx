@@ -12,12 +12,12 @@ const Header = () => {
       <div className="container container-top">
         <div className="header-content text-center flex flex-column">
           <h1 className="text-uppercase header-title">
-            math studio
-            <br /> <span className="nameKate ">by Kate</span>{" "}
+            {" "}
+            Професійний репетитор з математики
           </h1>
+
           <p className="text-lead">
-            Професійний репетитор з математики.
-            <br /> Я допоможу тобі підготуватись до ДПА і НМТ!
+            Я допоможу тобі підготуватись до ДПА і НМТ!
           </p>
 
           <a href="#contact" className="btn header-btn btn-blue">

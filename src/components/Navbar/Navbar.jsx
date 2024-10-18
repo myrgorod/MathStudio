@@ -13,8 +13,8 @@ const Navbar = () => {
       <div className="container w-100 ">
         <div className="navbar-content flex fw-7">
           <div className="brand-and-toggler flex flex-between w-100">
-            <a href="/" className="navbar-brand fs-26">
-              Math Studio
+            <a href="/" className="navbar-brand fs-20">
+              Math Studio <span>by Kate</span>
             </a>
             <div
               type="button"
@@ -58,7 +58,12 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="text-white">
-                  <a href="https://t.me/kate_ame"  target="_blank" rel="noopener noreferrer" className="flex flex-center">
+                  <a
+                    href="https://t.me/kate_ame"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-center"
+                  >
                     <FaTelegram />
                   </a>
                 </li>
